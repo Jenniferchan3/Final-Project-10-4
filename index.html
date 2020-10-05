@@ -7,9 +7,8 @@
     <title>Find My Boba!</title>
     <link rel="stylesheet" href="css/main.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
-      rel="stylesheet"
-    />
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;300;400;500&display=swap" rel="stylesheet">
   </head>
 
   <body>
@@ -25,9 +24,10 @@
     <aside class="search-modal" id="modal-main">
       <div id="modal-text">
         <div class="modal-header">
-          <h1>Find my boba by...</h1>
+          <h1>Search for boba by...</h1>
           <div class="close" id="close-button">X</div>
         </div>
+
         <h2>Nearby Areas:</h2>
         <form class="nearby-area">
           <label class="checkbox-inline">
@@ -35,8 +35,7 @@
             Brighton</label
           >
           <label class="checkbox-inline">
-            <input id="back-bay" type="checkbox" value="" />Back Bay /
-            Chinatown</label
+            <input id="ctown" type="checkbox" value="" />Chinatown / BackBay</label
           >
           <label class="checkbox-inline">
             <input id="cambridge" type="checkbox" value="" />Cambridge</label
@@ -48,7 +47,7 @@
         <h2>Food choices:</h2>
         <form class="food-choices">
           <label class="checkbox-inline">
-            <input id="tea-only" type="checkbox" value="" />Tea Shop Only</label
+            <input id="tea-shop-only" type="checkbox" value="" />Tea Shop Only</label
           >
           <label class="checkbox-inline">
             <input id="cafe" type="checkbox" value="" />Cafe</label
@@ -88,20 +87,158 @@
           <div class="close" id="close-button">X</div>
         </div>
 
-        <!-- <div class="hide" id="option-1"> -->
-        <ul id="option-1" class="hide">
-          <li>KungFu Tea</li>
-          <li>617-783-3388r</li>
-          <li>131 Harvard Ave, Allston MA 02134</li>
-          <li>
-            <a
-              href="https://www.google.com/search?q=kungfu+tea+allston&rlz=1C1CHBF_enUS921US921&oq=kungfu+tea+allston&aqs=chrome..69i57j0.2041j0j7&sourceid=chrome&ie=UTF-8#"
-              >View on Google Maps</a
-            >
-          </li>
-        </ul>
+    <div class="text-overflow">   
+        <div class="hide" id="option-1">
+          <!-- Allston-Tea-TeaOnly -->
+          <ul>
+            <li><span class="bold">Kung Fu Tea</span></li>
+            <li>617-783-3388</li>
+            <li>131 Harvard Ave, Allston MA 02134</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.3512429,-71.1269004,17z/data=!4m12!1m6!3m5!1s0x89e379bd74148995:0x7c03cf94766b4034!2sTiger+Sugar!8m2!3d42.3509926!4d-71.1315518!3m4!1s0x89e379c596a9f3b9:0x6890591cec15dc4b!8m2!3d42.3521943!4d-71.132116"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Gong Cha</span></li>
+            <li>617-208-8561</li>
+            <li>154 Harvard Ave, Allston MA 02134</li>
+            <li>
+              <a
+                href=https://www.google.com/maps/place/Gong+Cha/@42.351705,-71.1328344,17z/data=!3m1!4b1!4m5!3m4!1s0x89e3798f4c45d5a5:0xfc4e4711151a21d9!8m2!3d42.3517027!4d-71.131533"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Kung Fu Tea</span></li>
+            <li>617-987-0213</li>
+            <li>1 Brighton Ave, Allston MA 02134</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.3517245,-71.1394005,15z/data=!4m8!1m2!2m1!1skung+fu+tea!3m4!1s0x89e3791b6060e3f5:0xab75399d67f6e0f7!8m2!3d42.352372!4d-71.1254908"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Tiger Sugar</span></li>
+            <li>917-818-7661</li>
+            <li>Boston, MA 02134</li>
+            <li>
+              <a
+                href="https://www.google.com/search?rlz=1C1CHBF_enUS921US921&sxsrf=ALeKk02sEexSRbBQRR9PVKsEM48YqjwoUA:1601841406822&q=allston+boba+tea+shop&npsic=0&rflfq=1&rldoc=1&rlha=0&rllag=42352672,-71131989,114&tbm=lcl&sa=X&ved=2ahUKEwjDwKig3JvsAhVOneAKHcK1C3MQjGp6BAgMEFU&biw=2152&bih=1287#https://www.google.com/maps/place/Tiger+Sugar/@42.3509926,-71.1337405,17z/data=!3m1!4b1!4m5!3m4!1s0x89e379bd74148995:0x7c03cf94766b4034!8m2!3d42.3509926!4d-71.1315518"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">LimeRed Teahouse</span></li>
+            <li>617-396-4541</li>
+            <li>1092 Commonwealth Avenue, Boston MA 02215</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/LimeRed+Teahouse+(Boston)/@42.1771328,-71.3355907,11z/data=!4m8!1m2!2m1!1sallston+boba+tea+shop!3m4!1s0x89e379c301927595:0x6dfd6db4e5c11452!8m2!3d42.3518397!4d-71.1241295"
+                >View on Google Maps</a>
+            </li>
+          </ul>
+        </div>
 
-        <!-- </div> -->
+        <div class="hide" id="option-2">
+          <!-- Ctown-tea-teaOnly -->
+          <ul>
+            <li><span class="bold">KungFu Tea</span></li>
+            <li>617-542-8838</li>
+            <li>66 Kneeland St, Boston MA 02111</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.350683,-71.0590505,17.79z/data=!4m8!1m2!2m1!1sboba+tea!3m4!1s0x0:0x7ae240422f2773fe!8m2!3d42.3505346!4d-71.0606539"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Gong Cha</span></li>
+            <li>617-574-4870</li>
+            <li>40-44 Harrison Ave, Boston MA 02111</li>
+            <li>
+              <a
+                href=https://www.google.com/maps/place/Gong+Cha/@42.350683,-71.0590505,18z/data=!4m8!1m2!2m1!1sboba+tea!3m4!1s0x0:0xfed65fd39a98cd6a!8m2!3d42.3516298!4d-71.0610465"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Tea Do</span></li>
+            <li>617-988-8002</li>
+            <li>8 Tyler Street, Boston MA 02111</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.350683,-71.0590505,17.79z/data=!4m8!1m2!2m1!1sboba+tea!3m4!1s0x0:0x7ae240422f2773fe!8m2!3d42.3505346!4d-71.0606539"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Pin Ming</span></li>
+            <li>617-457-7854</li>
+            <li>5 Beach St, Boston MA 02111</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Gong+Cha/@42.350683,-71.0590505,18z/data=!4m8!1m2!2m1!1sboba+tea!3m4!1s0x0:0xfed65fd39a98cd6a!8m2!3d42.3516298!4d-71.0610465"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Chatime Chinatown</span></li>
+            <li>617-982-6928</li>
+            <li>31 Harrison Ave, Boston MA 02111</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Chatime+Chinatown/@42.3509447,-71.0599839,18z/data=!4m8!1m2!2m1!1sboba+tea!3m4!1s0x0:0xbaa90739fa5c07cf!8m2!3d42.3516658!4d-71.0613808"
+                >View on Google Maps</a>
+            </li>
+          </ul>
+        </div>
+
+
+        <div class="hide" id="option-3">
+            <!-- Cambridge-tea-teaOnly -->
+            <ul>
+              <li><span class="bold">KungFu Tea</span></li>
+              <li>617-714-5527</li>
+              <li>1160 Massachusetts Ave, Cambridge MA 02138</li>
+              <li>
+                <a
+                  href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.372195,-71.1074762,15.5z/data=!4m8!1m2!2m1!1scambridge+boba+tea!3m4!1s0x0:0x395567edc60d085e!8m2!3d42.3712889!4d-71.114628"
+                  >View on Google Maps</a>
+              </li>
+              <br /><br />
+              <li><span class="bold">Boston Tea Shop</span></li>
+              <li>617-945-0017</li>
+              <li>54 John F. Kennedy St, Cambridge MA 02138</li>
+              <li>
+                <a
+                  href=https://www.google.com/maps/place/Boston+Tea+Stop/@42.372195,-71.1074762,15.5z/data=!4m8!1m2!2m1!1scambridge+boba+tea!3m4!1s0x89e3775d508cc081:0x2765a92a0bc64cb3!8m2!3d42.3718604!4d-71.1204808"
+                  >View on Google Maps</a>
+              </li>
+            </ul>
+        </div>      
+
+        <div class="hide" id="option-4">
+          <!-- Allston-cafe-teaOnly -->
+          <ul>
+            <li><span class="bold">KungFu Tea</span></li>
+            <li>617-714-5527</li>
+            <li>1160 Massachusetts Ave, Cambridge MA 02138</li>
+            <li>
+              <a
+                href="https://www.google.com/maps/place/Kung+Fu+Tea/@42.372195,-71.1074762,15.5z/data=!4m8!1m2!2m1!1scambridge+boba+tea!3m4!1s0x0:0x395567edc60d085e!8m2!3d42.3712889!4d-71.114628"
+                >View on Google Maps</a>
+            </li>
+            <br /><br />
+            <li><span class="bold">Boston Tea Shop</span></li>
+            <li>617-945-0017</li>
+            <li>54 John F. Kennedy St, Cambridge MA 02138</li>
+            <li>
+              <a
+                href=https://www.google.com/maps/place/Boston+Tea+Stop/@42.372195,-71.1074762,15.5z/data=!4m8!1m2!2m1!1scambridge+boba+tea!3m4!1s0x89e3775d508cc081:0x2765a92a0bc64cb3!8m2!3d42.3718604!4d-71.1204808"
+                >View on Google Maps</a>
+            </li>
+          </ul>
+      </div>      
+
+
+
+
+    </div>
       </div>
 
       <div class="submit" id="submit-button">Submit</div>
