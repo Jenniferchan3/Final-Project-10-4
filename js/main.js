@@ -87,13 +87,13 @@ submitButton.addEventListener("click", function () {
     rest.checked === true &&
     coffee.checked === true
   ) {
-    document.getElementById("option-9").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     teashopOnly.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-10").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     ctown.checked === true &&
     teashopOnly.checked === true &&
@@ -105,7 +105,7 @@ submitButton.addEventListener("click", function () {
     teashopOnly.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-12").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     teashopOnly.checked === true &&
@@ -123,13 +123,13 @@ submitButton.addEventListener("click", function () {
     teashopOnly.checked === true &&
     fruit.checked === true
   ) {
-    document.getElementById("option-15").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     cafe.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-16").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     ctown.checked === true &&
     cafe.checked === true &&
@@ -141,7 +141,7 @@ submitButton.addEventListener("click", function () {
     cafe.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-18").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     cafe.checked === true &&
@@ -159,25 +159,25 @@ submitButton.addEventListener("click", function () {
     cafe.checked === true &&
     fruit.checked === true
   ) {
-    document.getElementById("option-21").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     rest.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-22").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     ctown.checked === true &&
     rest.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-23").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     cambridge.checked === true &&
     rest.checked === true &&
     cheese.checked === true
   ) {
-    document.getElementById("option-24").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   } else if (
     allston.checked === true &&
     rest.checked === true &&
@@ -195,7 +195,7 @@ submitButton.addEventListener("click", function () {
     rest.checked === true &&
     fruit.checked === true
   ) {
-    document.getElementById("option-26").classList.remove("hide");
+    document.getElementById("option-8").classList.remove("hide");
   }
 });
 
