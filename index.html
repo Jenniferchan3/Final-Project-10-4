@@ -30,39 +30,44 @@
           <div class="close" id="close-button">X</div>
         </div>
 
+        <form id="search-form">
+
         <h2>Nearby Areas:</h2>
-        <form class="nearby-area">
-          <label class="radio-inline">
-            <input type="radio" id="allston" value="allston">Allston / Brighton</label>
-          <label class="radio-inline">
-            <input type="radio" id="ctown" value="chinatown">Chinatown / BackBay</label>
-          <label class="radio-inline">
-            <input type="radio" id="cambridge"value="cambridge">Cambridge</label>
-        </form>
+        <!-- <form class="nearby-area"> -->
+          <div>
+            <input type="radio" id="allston" name="nearby-areas" value="allston">
+              <label for="allston" class="radio-inline">Allston / Brighton</label>
+            <input type="radio" id="ctown" name="nearby-areas" value="ctown">
+              <label for="ctown" class="radio-inline">Chinatown / BackBay</label>
+            <input type="radio" id="cambridge" name="nearby-areas" value="cambridge">
+              <label for="cambridge" class="radio-inline">Cambridge</label>
+          </div>
+        <!-- </form> -->
 
         <div class="spacing"></div>
 
         <h2>Food choices:</h2>
-        <form class="food-choices">
+        <!-- <form class="food-choices"> -->
           <label class="radio-inline">
-            <input id="tea-shop-only" type="radio" value="teashopOnly">Tea Shop Only</label>
+            <input id="tea-shop-only" type="radio" value="">Tea Shop Only</label>
           <label class="radio-inline">
-            <input id="cafe" type="radio" value="cafe">Cafe / Dessert</label>
+            <input id="cafe" type="radio" value="">Cafe / Dessert</label>
           <label class="radio-inline">
-            <input id="restaurant" type="radio" value="restaurant">Restaurant</label>
-        </form>
+            <input id="restaurant" type="radio" value="">Restaurant</label>
+        <!-- </form> -->
 
         <div class="spacing"></div>
 
         <h2>Types of Tea:</h2>
-        <form class="types-with">
+        <!-- <form class="types-with"> -->
           <label class="radio-inline">
-            <input id="coffee" type="radio" value="coffee">With Coffee</label>
+            <input id="coffee" type="radio" value="">With Coffee</label>
           <label class="radio-inline">
-            <input id="cheese" type="radio" value="cheese">With Cheese Foam</label>
+            <input id="cheese" type="radio">With Cheese Foam</label>
           <label class="radio-inline">
-            <input id="fruitshakes" type="radio" value="fruitshakes">With Fruit Shakes</label>
-        </form>
+            <input id="fruitshakes" type="radio">With Fruit Shakes</label>
+        <!-- </form> -->
+      </form>
       </div>
       <div class="spacing"></div>
       <div class="spacing"></div>
@@ -510,7 +515,8 @@
     </div>
 </div>
 
-      <div class="submit hide" id="submit-button">Submit</div>
+      <div class="submit" id="submit-button">Submit</div>
+
     </aside>
   </body>
   <script src="js/main.js"></script>

@@ -16,6 +16,9 @@ searchButton.addEventListener("click", function () {
   document.getElementById("results-text").classList.remove("open");
   document.getElementById("modal-main").classList.add("open");
   document.getElementById("modal-text").classList.remove("hide");
+  document.getElementById("search-form").reset();
+  // submitButton.classList.remove("hide");
+  submitButton.style.display = "flex";
 });
 
 closeModal.addEventListener("click", function () {
