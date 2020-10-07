@@ -1,5 +1,6 @@
 const searchButton = document.getElementById("search-button");
 const closeModal = document.getElementById("close-button");
+const closeModal2 = document.getElementById("close-button2");
 const submitButton = document.getElementById("submit-button");
 const allston = document.getElementById("allston");
 const ctown = document.getElementById("ctown");
@@ -12,17 +13,24 @@ const cheese = document.getElementById("cheese");
 const fruit = document.getElementById("fruitshakes");
 
 searchButton.addEventListener("click", function () {
+  document.getElementById("results-text").classList.remove("open");
   document.getElementById("modal-main").classList.add("open");
+  document.getElementById("modal-text").classList.remove("hide");
 });
 
 closeModal.addEventListener("click", function () {
   document.getElementById("modal-main").classList.remove("open");
 });
 
+closeModal2.addEventListener("click", function () {
+  document.getElementById("modal-main").classList.remove("open");
+});
+
 submitButton.addEventListener("click", function () {
+  console.log(this);
+  this.style.display = "none";
   document.getElementById("results-text").classList.add("open");
   document.getElementById("modal-text").classList.add("hide");
-  // document.getElementById("submit-button").classList.add("hide");
   document.body.style.backgroundImage = "url(../img/bobafriends-01.jpg)";
 
   if (
