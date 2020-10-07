@@ -43,7 +43,14 @@ li {
   font-size: 20px;
 }
 
-.name {
+.logoname {
+  display: block;
+  width: 25rem;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+/* .name {
   display: flex;
   justify-content: flex-start;
   font-size: 44px;
@@ -51,7 +58,7 @@ li {
   align-items: center;
   color: gold;
   margin-left: 15px;
-}
+} */
 
 .show-find-modal {
   display: flex;
