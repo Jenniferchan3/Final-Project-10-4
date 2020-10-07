@@ -160,6 +160,42 @@ submitButton.addEventListener("click", function () {
     fruit.checked === true
   ) {
     document.getElementById("option-21").classList.remove("hide");
+  } else if (
+    allston.checked === true &&
+    rest.checked === true &&
+    cheese.checked === true
+  ) {
+    document.getElementById("option-22").classList.remove("hide");
+  } else if (
+    ctown.checked === true &&
+    rest.checked === true &&
+    cheese.checked === true
+  ) {
+    document.getElementById("option-23").classList.remove("hide");
+  } else if (
+    cambridge.checked === true &&
+    rest.checked === true &&
+    cheese.checked === true
+  ) {
+    document.getElementById("option-24").classList.remove("hide");
+  } else if (
+    allston.checked === true &&
+    rest.checked === true &&
+    fruit.checked === true
+  ) {
+    document.getElementById("option-25").classList.remove("hide");
+  } else if (
+    ctown.checked === true &&
+    rest.checked === true &&
+    fruit.checked === true
+  ) {
+    document.getElementById("option-26").classList.remove("hide");
+  } else if (
+    cambridge.checked === true &&
+    rest.checked === true &&
+    fruit.checked === true
+  ) {
+    document.getElementById("option-26").classList.remove("hide");
   }
 });
 
