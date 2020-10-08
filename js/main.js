@@ -219,10 +219,3 @@ submitButton.addEventListener("click", function () {
     document.getElementById("option-8").classList.remove("hide");
   }
 });
-
-// searchButton.addEventListener("click", function () {
-//   document.getElementById("modal-main").reset();
-
-// else (
-// if (nearbyArea === allston && foodChoices === cafe && typesTea === teaonly) {
-// }
