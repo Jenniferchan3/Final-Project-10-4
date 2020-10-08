@@ -18,6 +18,7 @@ searchButton.addEventListener("click", function () {
   document.getElementById("modal-text").classList.remove("hide");
   document.getElementById("search-form").reset();
   submitButton.style.display = "flex";
+  document.body.style.backgroundImage = "url(../img/boba.ai_lineedit-01.jpg)";
 });
 
 closeModal.addEventListener("click", function () {
