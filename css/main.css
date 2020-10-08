@@ -1,6 +1,6 @@
 body {
   font-family: "Barlow Condensed", sans-serif;
-  background-image: url(../img/boba-01.jpg);
+  background-image: url(../img/boba.ai_lineedit-01.jpg);
   background-size: cover;
   background-color: fcf2f2;
   background-repeat: no-repeat;
@@ -17,12 +17,14 @@ nav {
 h1 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 500;
+  color: #3a3a3a;
 }
 
 h2 {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 400;
   font-size: 18px;
+  color: #3a3a3a;
 }
 
 .radio-inline {
@@ -30,17 +32,21 @@ h2 {
   font-weight: 200;
   font-size: 17px;
   padding-right: 9px;
+  cursor: pointer;
+  color: #3a3a3a;
 }
 
 li {
   font-family: "Barlow Condensed", sans-serif;
   font-weight: 200;
   font-size: 17px;
+  color: #3a3a3a;
 }
 
 .bold {
   font-weight: 500;
   font-size: 20px;
+  color: #3a3a3a;
 }
 
 .logoname {
@@ -65,7 +71,7 @@ li {
   justify-content: flex-end;
   align-items: center;
   border-radius: 0.5rem;
-  background-color: #f9ab2f;
+  background-color: #0da3ff;
   color: white;
   border: 0;
   cursor: pointer;
@@ -82,9 +88,9 @@ li {
   justify-content: flex-end;
   align-items: center;
   border-radius: 0.5rem;
-  color: #f9ab2f;
+  color: #0da3ff;
   background-color: white;
-  border: 2px solid gold;
+  border: 2px solid#48b9ff;
   cursor: pointer;
   padding: 0px 18px;
   height: 60px;
@@ -131,7 +137,7 @@ li {
 .modal-header h1 {
   display: flex;
   justify-content: flex-start;
-  color: #ea453a;
+  color: #3a3a3a;
   font-family: "Pacifico", cursive;
 }
 
@@ -143,11 +149,11 @@ li {
   position: relative;
   font-weight: bold;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   top: 12px;
   right: 12px;
   text-align: center;
-  color: black;
+  color: #ea423a;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -160,11 +166,11 @@ li {
   position: relative;
   font-weight: bold;
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 18px;
+  font-size: 24px;
   top: 12px;
   right: 12px;
   text-align: center;
-  color: black;
+  color: #0da3ff;
   border-radius: 0.25rem;
   cursor: pointer;
 }
@@ -200,7 +206,7 @@ h2 {
 
 .text-overflow {
   width: 23rem;
-  height: 29rem;
+  height: 32rem;
   visibility: visible;
   overflow: auto;
 }
@@ -211,7 +217,7 @@ h2 {
   align-items: center;
   border-radius: 0.5rem;
   color: white;
-  background-color: #f9ab2f;
+  background-color: #48b9ff;
   border: 0;
   cursor: pointer;
   padding: 5px 20px;
@@ -227,9 +233,9 @@ h2 {
   justify-content: center;
   align-items: center;
   border-radius: 0.5rem;
-  color: #f9ab2f;
+  color: #0da3ff;
   background-color: white;
-  border: 2px solid gold;
+  border: 2px solid #48b9ff;
   cursor: pointer;
   padding: 3px 18px;
   height: 40px;

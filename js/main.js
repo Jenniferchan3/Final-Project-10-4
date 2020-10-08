@@ -34,7 +34,8 @@ submitButton.addEventListener("click", function () {
   this.style.display = "none";
   document.getElementById("results-text").classList.add("open");
   document.getElementById("modal-text").classList.add("hide");
-  document.body.style.backgroundImage = "url(../img/bobafriends-01.jpg)";
+  document.body.style.backgroundImage =
+    "url(../img/bobafriends_lineedit-01.jpg)";
 
   if (
     allston.checked === true &&
