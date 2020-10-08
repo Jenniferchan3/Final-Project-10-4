@@ -110,7 +110,7 @@ li {
 .search-modal.open {
   display: block;
   border: 3px solid gold;
-  background-color: #e4eefc;
+  background-color: rgba(228, 238, 252, 0.95);
   border-radius: 0.5rem;
   box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.16);
   width: 26rem;
@@ -299,7 +299,7 @@ li {
   .search-modal.open {
     display: block;
     border: 3px solid gold;
-    background-color: #e4eefc;
+    background-color: rgba(228, 238, 252, 0.95);
     border-radius: 0.5rem;
     box-shadow: 0 0.3rem 1rem rgba(0, 0, 0, 0.16);
     width: 26rem;
