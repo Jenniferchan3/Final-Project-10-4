@@ -37,6 +37,23 @@ submitButton.addEventListener("click", function () {
   document.body.style.backgroundImage =
     "url(../img/bobafriends_lineedit-01.jpg)";
 
+  document.getElementById("option-1").classList.add("hide");
+  document.getElementById("option-2").classList.add("hide");
+  document.getElementById("option-3").classList.add("hide");
+  document.getElementById("option-4").classList.add("hide");
+  document.getElementById("option-5").classList.add("hide");
+  document.getElementById("option-6").classList.add("hide");
+  document.getElementById("option-7").classList.add("hide");
+  document.getElementById("option-8").classList.add("hide");
+  document.getElementById("option-11").classList.add("hide");
+  document.getElementById("option-13").classList.add("hide");
+  document.getElementById("option-14").classList.add("hide");
+  document.getElementById("option-17").classList.add("hide");
+  document.getElementById("option-19").classList.add("hide");
+  document.getElementById("option-20").classList.add("hide");
+  document.getElementById("option-25").classList.add("hide");
+  document.getElementById("option-26").classList.add("hide");
+
   if (
     allston.checked === true &&
     teashopOnly.checked === true &&
